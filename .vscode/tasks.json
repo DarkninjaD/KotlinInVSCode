@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "detail": "$(tools) Build all the Kotlin projects in workspace",
+      "type": "shell",
+      "command": "./gradlew build -x test",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "run",
+      "type": "shell",
+      "detail": "run's the kotlin project",
+      "command": "./gradlew run",
+      "problemMatcher": []
+    },
+    {
+      "label": "test",
+      "type": "shell",
+      "detail": "Runs the JUnit tests",
+      "command": "./gradlew test"
+    }
+  ]
+}
