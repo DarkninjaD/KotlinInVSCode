@@ -34,5 +34,10 @@ application {
 tasks.test {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
+    testLogging{
+        events("passed", "skipped", "failed")
+        showStandardStreams = true
+        outputs.upToDateWhen { false }
+    }
 
 }

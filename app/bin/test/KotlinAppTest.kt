@@ -10,4 +10,19 @@ internal class SampleTest {
     val expected = 42
     assertEquals(expected, testSample.sum(40,2))
   }
+  @Test
+  fun testsomthing2() {
+    val expected = 42
+    assertEquals(expected, testSample.sum(40,2))
+  }
+  @Test
+  fun testsomthing3() {
+    val expected = 42
+    assertEquals(expected, testSample.sum(40,2))
+  }
+  @Test
+  fun testsomthing4() {
+    val expected = 42
+    assertEquals(expected, testSample.sum(40,2))
+  }
 }
